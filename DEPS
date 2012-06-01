@@ -5,7 +5,7 @@ vars = {
   "googlecode_url": "http://%s.googlecode.com/svn",
   "sourceforge_url": "http://%(repo)s.svn.sourceforge.net/svnroot/%(repo)s",
   "webkit_trunk": "http://svn.webkit.org/repository/webkit/trunk",
-  "webkit_git": "ssh://git@github.com/readium/ACCESS-WebKit.git",
+  "webkit_git": "ssh://git@github.com/readium/Readium-WebKit.git",
   "nacl_trunk": "http://src.chromium.org/native_client/trunk",
   "webkit_revision": "106313",
   "chromium_git": "http://git.chromium.org/git",
@@ -80,7 +80,7 @@ deps = {
     Var("webkit_git"),
 
   "src/third_party/icu":
-    "ssh://git@github.com/readium/ACCESS-ICU.git",
+    "ssh://git@github.com/readium/Readium-ICU.git",
 
   "src/third_party/hunspell":
    Var("default_src") + "/trunk/deps/third_party/hunspell@110423",
