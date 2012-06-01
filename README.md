@@ -5,7 +5,7 @@ modified Chromium to use Readium-WebKit.
 
 This repository based on Chromium 18 branch.
 
-http://src.chromium.org/svn/branches/1025/src@121524
+http://src.chromium.org/svn/branches/1025/src @121524
 
 # How to get source
 gclient config ssh://git@github.com/readium/Readium-Chromium.git --name src
